@@ -23,7 +23,7 @@ public class JpalearningApplication {
 		car.setInfo("BMW Sport Car");		
 		Car car2=carRepo.save(car);
 		System.out.println(car2);
-		System.out.println(car2);
+		//System.out.println(car2);
 		
 		//carRepo.deleteAll();
 		
